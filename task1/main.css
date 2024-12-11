@@ -1,0 +1,109 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f8f5;
+}
+button {
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+header h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: #3446ee;
+}
+header h4 {
+  color: #ea6161;
+}
+
+.to-do-list {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.to-do-list .input-container input {
+  padding: 12px;
+  width: 350px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+.to-do-list .input-container button {
+  background-color: #ea6161;
+  color: #f6f8f5;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.to-do-list .input-container button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: #f6f8f5;
+}
+
+.tasks-container {
+  background-color: white;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 12px;
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap:20px
+}
+.tasks-container .task input {
+  padding: 12px;
+  width: 350px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+}
+.tasks-container .task .delete {
+  background-color: red;
+  color: #f6f8f5;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.tasks-container .task .done {
+  background-color: green;
+  color: #f6f8f5;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.tasks-container .done-task input {
+  padding: 12px;
+  width: 350px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  background: green;
+  color: white;
+}
+.tasks-container .done-task .delete {
+  background-color: red;
+  color: #f6f8f5;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.tasks-container .done-task .done {
+  background-color: green;
+  color: #f6f8f5;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
